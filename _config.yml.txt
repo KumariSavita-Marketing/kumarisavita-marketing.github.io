@@ -1,7 +1,0 @@
-title: "Kumari Savita"
-description: "Digital Content Marketer — Portfolio"
-theme: jekyll-theme-minimal
-
-# Optional aesthetic tweaks
-show_downloads: false
-

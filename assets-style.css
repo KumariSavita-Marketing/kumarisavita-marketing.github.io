@@ -1,0 +1,110 @@
+/* GLOBAL THEME */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f7f9fc;
+  color: #1a1a1a;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  line-height: 1.65;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #0f1c2e;
+}
+
+/* TOP NAVIGATION BAR */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #dce3ee;
+  padding: 0.9rem 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  z-index: 999;
+}
+
+.top-nav a {
+  color: #0f1c2e;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.3rem 0.4rem;
+  transition: 0.25s ease;
+}
+
+.top-nav a:hover {
+  color: #2a6df4;
+  transform: translateY(-2px);
+}
+
+.nav-spacer {
+  height: 70px;
+}
+
+/* TILE SECTIONS */
+.tile {
+  background: #ffffff;
+  border: 1px solid #e3e8f0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  transition: 0.25s ease;
+}
+
+.tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+/* TAG BUTTONS */
+.tag-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.tag-buttons span {
+  background: #eef3ff;
+  color: #2a6df4;
+  padding: 0.45rem 0.75rem;
+  border-radius: 20px;
+  border: 1px solid #d4e0ff;
+  font-size: 0.85rem;
+  transition: 0.25s ease;
+}
+
+.tag-buttons span:hover {
+  background: #dce7ff;
+  transform: translateY(-2px);
+}
+
+/* LINK BUTTONS */
+.link-buttons {
+  display: flex;
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+
+.link-buttons a {
+  background: #2a6df4;
+  color: white;
+  padding: 0.55rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.25s ease;
+}
+
+.link-buttons a:hover {
+  background: #1f54c9;
+  transform: translateY(-2px);
+}

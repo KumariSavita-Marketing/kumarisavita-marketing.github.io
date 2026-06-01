@@ -1,270 +1,236 @@
----
-title: " "
----
-<link rel="stylesheet" href="assets/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-
-<nav class="top-nav">
-  <div class="nav-logo">KS</div>
-  <div class="nav-links">
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#achievements">Achievements</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact" class="nav-cta">Let's talk</a>
-  </div>
-</nav>
-
-<section class="hero" id="home">
-  <div class="hero-eyebrow">Digital Content Marketer</div>
-  <h1 class="hero-name">Kumari Savita</h1>
-  <p class="hero-sub">I build scalable content ecosystems that attract and convert — specialising in SEO, social strategy and organic acquisition for fintech and regulated markets.</p>
-  <div class="hero-links">
-    <a href="mailto:kri.savita30@gmail.com" class="btn-primary">Email me</a>
-    <a href="https://www.linkedin.com/in/kumari-savita-175b34244" target="_blank" class="btn-outline">LinkedIn ↗</a>
-    <a href="https://medium.com/@kri.savita30" target="_blank" class="btn-outline">Blog ↗</a>
-  </div>
-</section>
-
-<section class="section" id="experience">
-  <h2 class="section-title">Experience</h2>
-
-  <div class="exp-item">
-    <div class="exp-meta">
-      <span class="exp-date">Dec 2025 — Present</span>
-      <span class="exp-location">Cambridge, UK · Remote</span>
-    </div>
-    <div class="exp-content">
-      <h3>Digital Marketing Executive <span class="exp-company">@ Advancement Quest</span></h3>
-      <p>Delivered SEO-led web content, rebuilt 20+ CMS pages, analysed user behaviour, and improved multi-channel content performance across web and social.</p>
-      <div class="tag-row">
-        <span>HubSpot CMS</span><span>GA4</span><span>GTM</span><span>LinkedIn</span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kumari Savita | Marketing & Content</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="nav">
+      <div class="logo">Kumari Savita</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#skills">Skills</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
       </div>
-    </div>
-  </div>
+    </nav>
 
-  <div class="exp-item">
-    <div class="exp-meta">
-      <span class="exp-date">Nov 2024 — Aug 2025</span>
-      <span class="exp-location">Bengaluru, India</span>
-    </div>
-    <div class="exp-content">
-      <h3>Marketing Analyst <span class="exp-company">@ OneAssure – Prost Technologies</span></h3>
-      <p>Led SEO-driven content and website revamp, produced multi-channel marketing assets, and scaled organic traffic and leads through structured content systems.</p>
-      <div class="tag-row">
-        <span>Ahrefs</span><span>SEMrush</span><span>Looker Studio</span><span>GA4</span><span>Search Console</span><span>Meta Ads</span><span>Canva</span>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Marketing · Content · Fintech</p>
+        <h1 class="hero-title">Kumari Savita</h1>
+        <p class="hero-subtitle">
+          Digital content and marketing specialist with experience across fintech, journalism,
+          and creative industries. I care about clear narratives, measurable impact, and
+          AI‑native content workflows.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn primary">View projects</a>
+          <a href="https://medium.com/@kri.savita30" target="_blank" class="btn ghost">
+            Blog ↗
+          </a>
+        </div>
       </div>
-    </div>
-  </div>
+      <div class="hero-meta">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <strong>MA Creative and Cultural Industries</strong>, SOAS University of London<br />
+            Grade: Distinction (on-track)
+          </li>
+          <li>
+            <strong>BA (Hons), Jesus and Mary College, University of Delhi</strong><br />
+            Grade: 2:1
+          </li>
+        </ul>
+      </div>
+    </section>
+  </header>
 
-  <div class="exp-item">
-    <div class="exp-meta">
-      <span class="exp-date">Jun 2023 — Aug 2023</span>
-      <span class="exp-location">Mumbai, India</span>
-    </div>
-    <div class="exp-content">
-      <h3>Intern Journalist <span class="exp-company">@ The Free Press Journal</span></h3>
-      <p>Delivered 80+ articles with strong research, clear structure and consistent on-time publishing.</p>
-    </div>
-  </div>
-</section>
+  <main>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-inner">
+        <h2>Experience</h2>
+        <div class="grid two-col">
+          <article class="tile">
+            <h3>Digital Content Executive</h3>
+            <p class="meta">Advancement Quest · Cambridge (Remote)</p>
+            <p>
+              Lead content strategy and execution for a mission‑driven organisation, focusing on
+              SEO‑optimised articles, email journeys, and stakeholder‑friendly reporting.
+            </p>
+          </article>
 
-<section class="section section-tinted" id="education">
-  <h2 class="section-title">Education</h2>
-  <div class="edu-grid">
-    <div class="edu-card">
-      <div class="edu-tag">Masters</div>
-      <div class="edu-degree">MA Digital Cultures</div>
-      <div class="edu-school">SOAS University of London</div>
-      <div class="edu-meta">Sep 2025 – Sep 2026 · United Kingdom</div>
-      <div class="edu-modules">Digital Marketing · Digital Cultures & Communication · Global Digital Media</div>
-      <div class="edu-grade">Grade: Distinction (On-track)</div>
-    </div>
-    <div class="edu-card">
-      <div class="edu-tag">Bachelors</div>
-      <div class="edu-degree">BA History & Psychology</div>
-      <div class="edu-school">University of Delhi</div>
-      <div class="edu-meta">Oct 2021 – Jul 2024 · India</div>
-      <div class="edu-grade">Grade: 2:1</div>
-    </div>
-  </div>
-</section>
+          <article class="tile">
+            <h3>Marketing Analyst</h3>
+            <p class="meta">Prost Technologies (FinTech) · Bengaluru</p>
+            <p>
+              Worked on product messaging, campaign performance analysis, and content for a
+              fintech product, with emphasis on clarity, compliance, and user education.
+            </p>
+          </article>
 
-<section class="section" id="projects">
-  <h2 class="section-title">Projects</h2>
-  <div class="projects-grid">
-    <div class="project-card">
-      <div class="project-num">01</div>
-      <h3>Podcast</h3>
-      <p>A well-produced podcast showcasing creative scripting, ethical interviewing, digital-tool proficiency and audience-focused storytelling.</p>
-      <div class="tag-row">
-        <span>Content production</span><span>Creative direction</span><span>Audience trust-building</span>
-      </div>
-    </div>
-    <div class="project-card">
-      <div class="project-num">02</div>
-      <h3>Short-Form Consumer Insights</h3>
-      <p>Research on TikTok-style vertical video ecosystems and their impact on creators, algorithms and platform-driven marketing.</p>
-      <div class="tag-row">
-        <span>Algorithm literacy</span><span>Social-media ecosystems</span><span>Engagement metrics</span>
-      </div>
-    </div>
-    <div class="project-card">
-      <div class="project-num">03</div>
-      <h3>Omni-Channel Campaign Strategy</h3>
-      <p>Analysed American Eagle's 2025 Sydney Sweeney campaign and proposed a new inclusive campaign — "Denim for Every Body".</p>
-      <div class="tag-row">
-        <span>Digital strategy</span><span>Influencer marketing</span><span>Conversion optimisation</span>
-      </div>
-    </div>
-    <div class="project-card">
-      <div class="project-num">04</div>
-      <h3>Digital Ethnography</h3>
-      <p>Study showing how everyday interactions feed algorithmic profiling, with insights into data flows behind personalised advertising.</p>
-      <div class="tag-row">
-        <span>Consumer behaviour</span><span>Audience segmentation</span><span>Data-driven marketing</span>
-      </div>
-    </div>
-  </div>
-</section>
+          <article class="tile">
+            <h3>Digital Journalism Intern</h3>
+            <p class="meta">The Free Press Journal · Mumbai</p>
+            <p>
+              Reported and wrote digital stories with tight deadlines, collaborating with editors
+              to refine angles and headlines for maximum reach.
+            </p>
+          </article>
 
-<section class="section section-tinted" id="achievements">
-  <h2 class="section-title">Achievements</h2>
-  <div class="stats-grid">
-    <div class="stat-card">
-      <div class="stat-number">400+</div>
-      <div class="stat-label">Content Assets</div>
-      <div class="stat-sub">shipped across roles</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">650K+</div>
-      <div class="stat-label">Audience Reach</div>
-      <div class="stat-sub">across web + social</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">100%</div>
-      <div class="stat-label">On-Time Publishing</div>
-      <div class="stat-sub">accuracy across all roles</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-number">3.3%</div>
-      <div class="stat-label">Lead-to-Conversion</div>
-      <div class="stat-sub">from 3K generated leads</div>
-    </div>
-  </div>
-</section>
+          <article class="tile">
+            <h3>Events Head</h3>
+            <p class="meta">Jesus and Mary College · New Delhi</p>
+            <p>
+              Led event strategy, sponsorships, and on‑ground execution for college‑wide
+              festivals, coordinating cross‑functional student teams and external partners.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<section class="section" id="skills">
-  <h2 class="section-title">Skills</h2>
-  <div class="skills-grid">
-    <div class="skill-tile skill-tile--1">
-      <div class="skill-tile-icon">✍️</div>
-      <h4>Content</h4>
-      <ul>
-        <li>SEO writing</li>
-        <li>UX copy</li>
-        <li>Web content</li>
-        <li>Blog production</li>
-        <li>Social content</li>
-        <li>Tone of voice</li>
-      </ul>
-    </div>
-    <div class="skill-tile skill-tile--2">
-      <div class="skill-tile-icon">🗺️</div>
-      <h4>Strategy</h4>
-      <ul>
-        <li>Content operations</li>
-        <li>Keyword mapping</li>
-        <li>Journey design</li>
-        <li>Audience insights</li>
-        <li>Competitor research</li>
-        <li>Brand messaging</li>
-      </ul>
-    </div>
-    <div class="skill-tile skill-tile--3">
-      <div class="skill-tile-icon">📊</div>
-      <h4>Analytics</h4>
-      <ul>
-        <li>GA4</li>
-        <li>GTM</li>
-        <li>Looker Studio</li>
-        <li>CTR analysis</li>
-        <li>Engagement metrics</li>
-        <li>Performance QA</li>
-      </ul>
-    </div>
-    <div class="skill-tile skill-tile--4">
-      <div class="skill-tile-icon">🛠️</div>
-      <h4>Tools</h4>
-      <ul>
-        <li>HubSpot CMS</li>
-        <li>Ahrefs</li>
-        <li>SEMrush</li>
-        <li>Meta Analytics</li>
-        <li>YouTube Studio</li>
-        <li>Notion</li>
-      </ul>
-    </div>
-    <div class="skill-tile skill-tile--5">
-      <div class="skill-tile-icon">🤝</div>
-      <h4>Collaboration</h4>
-      <ul>
-        <li>Editorial QA</li>
-        <li>Workflow ops</li>
-        <li>Cross-team work</li>
-        <li>Creative briefs</li>
-        <li>Stakeholder comms</li>
-      </ul>
-    </div>
-  </div>
-</section>
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-inner">
+        <h2>Projects</h2>
+        <div class="grid two-col">
+          <article class="tile">
+            <h3>Fintech Content & SEO</h3>
+            <p class="meta">Content strategy · SEO · Analytics</p>
+            <p>
+              Designed and executed content funnels for fintech audiences, including landing
+              pages, explainers, and email sequences. Used GA4 and Looker Studio to track
+              performance and iterate on topics.
+            </p>
+          </article>
 
-<section class="section section-tinted" id="leadership">
-  <h2 class="section-title">Leadership</h2>
-  <div class="leadership-list">
-    <div class="leadership-item">
-      <div class="leadership-left">
-        <div class="leadership-role">Social Media Director</div>
-        <div class="leadership-org">Publishing Society, SOAS</div>
-      </div>
-      <div class="leadership-right">
-        <p>Led social strategy using content calendars, platform-native formats and analytics-driven iteration to grow engagement across student audiences.</p>
-        <div class="tag-row"><span>Content strategy</span><span>Platform-native content</span><span>Community engagement</span></div>
-      </div>
-    </div>
-    <div class="leadership-item">
-      <div class="leadership-left">
-        <div class="leadership-role">Editorial Lead</div>
-        <div class="leadership-org">Dept. Magazine, Univ. of Delhi</div>
-      </div>
-      <div class="leadership-right">
-        <p>Managed editing and publishing across three editions, coordinating writers and designers while maintaining editorial voice and production timelines.</p>
-        <div class="tag-row"><span>Editorial management</span><span>Team coordination</span><span>Publishing workflows</span></div>
-      </div>
-    </div>
-    <div class="leadership-item">
-      <div class="leadership-left">
-        <div class="leadership-role">Events Head</div>
-        <div class="leadership-org">Jesus and Mary College</div>
-      </div>
-      <div class="leadership-right">
-        <p>Led logistics, marketing and sponsorships for 5,000+ attendee events, coordinating cross-functional teams and delivering high-impact campus activations.</p>
-        <div class="tag-row"><span>Event marketing</span><span>Sponsorship management</span><span>Cross-functional leadership</span></div>
-      </div>
-    </div>
-  </div>
-</section>
+          <article class="tile">
+            <h3>AI‑Native Content Workflows</h3>
+            <p class="meta">Prompting · GEO · Experimentation</p>
+            <p>
+              Built workflows using large language models for ideation, drafting, and optimisation,
+              with a focus on Generative Engine Optimisation (GEO) and search behaviour.
+            </p>
+          </article>
 
-<section class="contact-section" id="contact">
-  <div class="contact-inner">
-    <h2 class="contact-heading">Let's work <em>together.</em></h2>
-    <p class="contact-sub">Open to freelance, contract and full-time opportunities in content marketing and digital strategy.</p>
-    <div class="contact-links">
-      <a href="mailto:kri.savita30@gmail.com" class="btn-primary">kri.savita30@gmail.com</a>
-      <a href="https://www.linkedin.com/in/kumari-savita-175b34244" target="_blank" class="btn-outline">LinkedIn ↗</a>
-      <a href="https://medium.com/@kri.savita30" target="_blank" class="btn-outline">Blog ↗</a>
-    </div>
-  </div>
-</section>
+          <article class="tile">
+            <h3>Food‑Waste Management Concept</h3>
+            <p class="meta">Early‑stage app concept</p>
+            <p>
+              Developed a concept for an app tackling food waste through community‑driven
+              sharing and incentives, including user journeys and basic product messaging.
+            </p>
+          </article>
 
-<footer class="site-footer">© 2025 Kumari Savita</footer>
+          <article class="tile">
+            <h3>Creative Work</h3>
+            <p class="meta">Film‑making · Writing · Photography</p>
+            <p>
+              Produced short films, photo essays, and narrative pieces exploring cities, memory,
+              and everyday labour, informing a more human‑centred approach to marketing.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <div class="section-inner">
+        <h2>Achievements</h2>
+        <div class="grid one-col">
+          <article class="tile">
+            <ul class="list">
+              <li><strong>On track for Distinction</strong> in MA Creative and Cultural Industries at SOAS.</li>
+              <li><strong>Events Head</strong> for college‑wide festivals with large‑scale sponsorships and footfall.</li>
+              <li><strong>Published digital pieces</strong> with The Free Press Journal.</li>
+              <li><strong>Led cross‑functional teams</strong> across events, content, and marketing projects.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-inner">
+        <h2>Skills</h2>
+        <div class="grid two-col">
+          <article class="tile">
+            <h3>Marketing & Content</h3>
+            <ul class="list">
+              <li>Content strategy and B2B communication</li>
+              <li>SEO and content optimisation</li>
+              <li>Campaign planning and reporting</li>
+              <li>Storytelling for fintech and tech products</li>
+            </ul>
+          </article>
+
+          <article class="tile">
+            <h3>Data & Tools</h3>
+            <ul class="list">
+              <li>GA4, Google Tag Manager, Looker Studio</li>
+              <li>AI‑assisted workflows and LLM prompt design</li>
+              <li>Basic experimentation with GEO and AI search</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section id="leadership" class="section">
+      <div class="section-inner">
+        <h2>Leadership</h2>
+        <div class="grid one-col">
+          <article class="tile">
+            <p>
+              I’ve led teams across events, content, and student initiatives—balancing logistics,
+              creative direction, and stakeholder expectations. My work as Events Head at Jesus
+              and Mary College involved sponsorships, programming, and on‑ground execution for
+              large‑scale festivals.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT (NO FORM) -->
+    <section id="contact" class="section">
+      <div class="section-inner">
+        <h2>Contact</h2>
+        <div class="grid one-col">
+          <article class="tile">
+            <p>
+              For roles in marketing, content, or fintech communication, feel free to reach out:
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:kri.savita30@gmail.com">kri.savita30@gmail.com</a>
+            </p>
+            <p>
+              <strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/kumari-savita" target="_blank">
+                linkedin.com/in/kumari-savita
+              </a>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Kumari Savita</p>
+  </footer>
+</body>
+</html>

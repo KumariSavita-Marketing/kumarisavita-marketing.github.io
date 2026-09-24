@@ -6,8 +6,8 @@ layout: none
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kumari Savita | Digital Content Marketer</title>
-  <meta name="description" content="Digital Content Marketer — Portfolio">
+  <title>Kumari Savita | Product Marketer &amp; Go-To-Market Strategist</title>
+  <meta name="description" content="Product Marketer &amp; Go-To-Market Strategist — Portfolio">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
@@ -383,6 +383,33 @@ layout: none
       line-height: 1.65;
     }
 
+    .exp-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin: 0 0 1.1rem;
+    }
+    .exp-list li {
+      position: relative;
+      padding-left: 1.15rem;
+      font-size: 0.96rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .exp-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.65em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    .exp-list li strong { color: var(--text); font-weight: 600; }
+    .exp-content p.exp-intro { font-size: 0.9rem; color: #4e5f73; margin-bottom: 0.9rem; }
+
     /* ── TAGS ── */
     .tag-row { display: flex; flex-wrap: wrap; gap: 7px; }
 
@@ -756,12 +783,13 @@ layout: none
 <!-- HERO -->
 <div class="hero-wrap" id="home">
   <div class="hero-tile">
-    <span class="hero-eyebrow">Digital Content Marketer</span>
+    <span class="hero-eyebrow">Product Marketer &amp; Go-To-Market Strategist</span>
     <h1 class="hero-name">Kumari <span>Savita</span></h1>
-    <p class="hero-sub">I build scalable content ecosystems that attract and convert. Specialising in SEO, social strategy and organic acquisition for fintech and regulated markets.</p>
+    <p class="hero-sub">I take products to market, from audience segmentation and positioning to launch execution and growth. Experience across AI product launches, GTM strategy and organic acquisition in fintech and regulated markets.</p>
     <div class="hero-specialisms">
       <span class="specialism-tag">Full Stack / Multichannel</span>
-      <span class="specialism-tag">Content Strategy and Execution</span>
+      <span class="specialism-tag">Product Marketing and GTM Strategy</span>
+      <span class="specialism-tag">Product Launches and Growth</span>
     </div>
     <div class="hero-links">
       <a href="mailto:kri.savita30@gmail.com" class="btn-primary">Email me</a>
@@ -778,7 +806,7 @@ layout: none
     <div class="edu-grid">
       <div class="edu-card">
         <span class="edu-badge">Masters</span>
-        <div class="edu-degree">MA Digital Cultures</div>
+        <div class="edu-degree">MA Creative and Cultural Industries</div>
         <div class="edu-school">SOAS University of London</div>
         <div class="edu-meta">Sep 2025 – Sep 2026 · United Kingdom</div>
         <div class="edu-modules">Digital Marketing · Digital Cultures &amp; Communication · Global Digital Media</div>
@@ -786,10 +814,10 @@ layout: none
       </div>
       <div class="edu-card">
         <span class="edu-badge">Bachelors</span>
-        <div class="edu-degree">BA History &amp; Psychology</div>
-        <div class="edu-school">University of Delhi</div>
+        <div class="edu-degree">BA History Honours (Minor in Psychology)</div>
+        <div class="edu-school">Jesus and Mary College, University of Delhi</div>
         <div class="edu-meta">Oct 2021 – Jul 2024 · India</div>
-        <span class="edu-grade">2:1</span>
+        <span class="edu-grade">First Class</span>
       </div>
     </div>
   </div>
@@ -801,12 +829,19 @@ layout: none
 
   <div class="exp-item">
     <div>
-      <span class="exp-date">Dec 2025 – Present</span>
-      <span class="exp-location">Cambridge, UK · Remote</span>
+      <span class="exp-date">Dec 2025 – May 2026</span>
+      <span class="exp-location">London, UK</span>
     </div>
     <div class="exp-content">
-      <h3><span class="exp-co">Digital Marketing Executive</span> @ Advancement Quest</h3>
-      <p>Delivered SEO-led web content, rebuilt 20+ CMS pages, analysed user behaviour, and improved multi-channel content performance across web and social.</p>
+      <h3><span class="exp-co">Product Marketing Associate</span> @ Advancement Quest</h3>
+      <p class="exp-intro">GTM &amp; Launches · UK tech startup building tools for SME founders</p>
+      <ul class="exp-list">
+        <li><strong>Owned GTM strategy for Second Look, an AI tool:</strong> developed the go-to-market plan, channel strategy, growth initiatives, landing pages, webpages and content strategy for the launch.</li>
+        <li><strong>Executed omnichannel product marketing</strong> across LinkedIn, blogs and other digital channels, translating product capabilities into customer-focused messaging and launch assets.</li>
+        <li><strong>Built product acquisition journeys:</strong> landing pages and website content supporting product discovery, customer journeys and growth objectives across a mobile-first experience.</li>
+        <li><strong>Rebuilt 20+ CMS pages</strong> with SEO-led web messaging, analysing user behaviour to improve multi-channel campaign performance.</li>
+        <li><strong>Implemented marketing analytics:</strong> configured Google Tag Manager and custom event tracking for a new web property, and built GA4 dashboards to measure acquisition, engagement, user cohorts and early-stage funnel performance.</li>
+      </ul>
       <div class="tag-row">
         <span class="tag">HubSpot CMS</span><span class="tag">GA4</span><span class="tag">GTM</span><span class="tag">LinkedIn</span>
       </div>
@@ -820,7 +855,17 @@ layout: none
     </div>
     <div class="exp-content">
       <h3><span class="exp-co">Marketing Analyst</span> @ OneAssure – Prost Technologies</h3>
-      <p>Led SEO-driven content and website revamp, produced multi-channel marketing assets, and scaled organic traffic and leads through structured content systems.</p>
+      <p class="exp-intro">Product &amp; Growth · InsurTech</p>
+      <ul class="exp-list">
+        <li><strong>Led the AI Insurance Advisor product launch:</strong> owned execution across audience segmentation, product content, landing pages, soft launch, guerrilla marketing, PR and mobile-first strategy.</li>
+        <li><strong>Led website growth strategy:</strong> rebuilt and optimised 400+ webpages across product and blog content, growing traffic from 300 to 75,000 within 3 months.</li>
+        <li><strong>Ran growth experiments:</strong> applied A/B testing and website-wide content audits to find optimisation opportunities across product and content journeys.</li>
+        <li><strong>Delivered masterclass GTM campaigns</strong> for a flagship series, attracting 200+ attendees and generating 20+ customer conversions from a zero baseline.</li>
+        <li><strong>Translated complex financial products</strong> into 30+ fintech explainers and guides, simplifying insurance and financial concepts for customer audiences.</li>
+        <li><strong>Managed a 100+ blog content pipeline,</strong> coordinating briefing, editing, production and SEO alignment, and lifting overall engagement by 60%.</li>
+        <li><strong>Managed audience and campaign activity:</strong> newsletters, audience segmentation and campaign scheduling to support targeted engagement and lead generation.</li>
+        <li><strong>Built marketing performance reporting:</strong> UTM tracking plus GA4 and Looker Studio dashboards to monitor acquisition, engagement, conversion behaviour and campaign performance.</li>
+      </ul>
       <div class="tag-row">
         <span class="tag">Ahrefs</span><span class="tag">SEMrush</span><span class="tag">Looker Studio</span><span class="tag">GA4</span><span class="tag">Search Console</span><span class="tag">Meta Ads</span><span class="tag">Canva</span>
       </div>
@@ -850,15 +895,42 @@ layout: none
 
       <div class="project-card">
         <div class="project-num">01</div>
-        <h3>Podcast</h3>
-        <p>A well-produced podcast showcasing creative scripting, ethical interviewing, digital-tool proficiency and audience-focused storytelling.</p>
+        <h3>Second Look: AI Product Launch</h3>
+        <p>Owned the go-to-market strategy and execution for an AI tool launch at Advancement Quest, covering channel strategy, landing pages, growth initiatives and omnichannel content.</p>
         <div class="tag-row">
-          <span class="tag">Content production</span><span class="tag">Creative direction</span><span class="tag">Audience trust-building</span>
+          <span class="tag">Go-to-market strategy</span><span class="tag">Product launch</span><span class="tag">Channel strategy</span>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-num">02</div>
+        <h3>AI Insurance Advisor Launch</h3>
+        <p>Led launch execution at OneAssure from audience segmentation and product content to landing pages, soft launch, guerrilla marketing and PR, built around a mobile-first strategy.</p>
+        <div class="tag-row">
+          <span class="tag">Product launch</span><span class="tag">Audience segmentation</span><span class="tag">PR and guerrilla marketing</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <h3>Omni-Channel Campaign Strategy</h3>
+        <p>Analysed American Eagle's 2025 Sydney Sweeney campaign using SOSTAC, AIDA and consumer psychology, and proposed a new inclusive campaign, "Denim for Every Body", with an AR/AI-enabled strategy.</p>
+        <div class="tag-row">
+          <span class="tag">Go-to-market strategy</span><span class="tag">Influencer marketing</span><span class="tag">Conversion optimisation</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">04</div>
+        <h3>Digital Ethnography &amp; Customer Journeys</h3>
+        <p>Study across Instagram, YouTube and Google Search showing how everyday interactions feed algorithmic profiling, with insights into customer journeys, cross-platform behaviour and data flows behind personalised advertising.</p>
+        <div class="tag-row">
+          <span class="tag">Consumer behaviour</span><span class="tag">Audience segmentation</span><span class="tag">Data-driven marketing</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">05</div>
         <h3>Short-Form Consumer Insights</h3>
         <p>Research on TikTok-style vertical video ecosystems and their impact on creators, algorithms and platform-driven marketing.</p>
         <div class="tag-row">
@@ -867,20 +939,11 @@ layout: none
       </div>
 
       <div class="project-card">
-        <div class="project-num">03</div>
-        <h3>Omni-Channel Campaign Strategy</h3>
-        <p>Analysed American Eagle's 2025 Sydney Sweeney campaign and proposed a new inclusive campaign, "Denim for Every Body".</p>
+        <div class="project-num">06</div>
+        <h3>Podcast</h3>
+        <p>A well-produced podcast showcasing creative scripting, ethical interviewing, digital-tool proficiency and audience-focused storytelling.</p>
         <div class="tag-row">
-          <span class="tag">Digital strategy</span><span class="tag">Influencer marketing</span><span class="tag">Conversion optimisation</span>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-num">04</div>
-        <h3>Digital Ethnography</h3>
-        <p>Study showing how everyday interactions feed algorithmic profiling, with insights into data flows behind personalised advertising.</p>
-        <div class="tag-row">
-          <span class="tag">Consumer behaviour</span><span class="tag">Audience segmentation</span><span class="tag">Data-driven marketing</span>
+          <span class="tag">Audience research</span><span class="tag">Creative direction</span><span class="tag">Audience trust-building</span>
         </div>
       </div>
 
@@ -894,15 +957,15 @@ layout: none
   <div class="cert-grid">
 
     <div class="cert-card">
-      <div class="cert-issuer">Semrush Academy</div>
+      <div class="cert-issuer">Semrush Academy · June 2026</div>
       <div class="cert-title">AI Search Operating System</div>
-      <p class="cert-desc">Covers how AI-driven search works and how to optimise content strategy for visibility in AI-powered search environments.</p>
+      <p class="cert-desc">Covers how AI-driven search works and how to optimise marketing strategy for visibility in AI-powered search environments.</p>
     </div>
 
     <div class="cert-card">
-      <div class="cert-issuer">Centre for Finance, Technology and Entrepreneurship (CFTE)</div>
+      <div class="cert-issuer">Centre for Finance, Technology and Entrepreneurship (CFTE) · June 2026</div>
       <div class="cert-title">Masterclass in Fintech</div>
-      <p class="cert-desc">Deep-dive into financial technology concepts, products and market dynamics crucial for content marketing in fintech.</p>
+      <p class="cert-desc">Deep-dive into financial technology concepts, products and market dynamics crucial for product marketing in fintech.</p>
     </div>
 
   </div>
@@ -915,29 +978,34 @@ layout: none
     <div class="skills-grid">
 
       <div class="skill-tile">
-        <span class="skill-icon">✍️</span>
-        <h4>Content</h4>
+        <span class="skill-icon">🚀</span>
+        <h4>Product Marketing</h4>
         <ul>
-          <li>SEO writing</li><li>UX copy</li><li>Web content</li>
-          <li>Blog production</li><li>Social content</li><li>Tone of voice</li>
+          <li>Positioning</li><li>Messaging</li><li>Value propositions</li><li>Product launches</li><li>Launch content</li><li>Financial services marketing</li>
         </ul>
       </div>
 
       <div class="skill-tile">
         <span class="skill-icon">🗺️</span>
-        <h4>Strategy</h4>
+        <h4>Go-To-Market Strategy</h4>
         <ul>
-          <li>Content operations</li><li>Keyword mapping</li><li>Journey design</li>
-          <li>Audience insights</li><li>Competitor research</li><li>Brand messaging</li>
+          <li>GTM planning</li><li>Channel strategy</li><li>Customer segmentation</li><li>Customer journey analysis</li><li>Journey design</li><li>Audience insights</li><li>Competitor research</li>
         </ul>
       </div>
 
       <div class="skill-tile">
-        <span class="skill-icon">📊</span>
-        <h4>Analytics</h4>
+        <span class="skill-icon">📈</span>
+        <h4>Growth &amp; Analytics</h4>
         <ul>
-          <li>GA4</li><li>GTM</li><li>Looker Studio</li>
-          <li>CTR analysis</li><li>Engagement metrics</li><li>Performance QA</li>
+          <li>Growth marketing</li><li>Funnel optimisation</li><li>A/B testing</li><li>GA4</li><li>Google Tag Manager</li><li>Looker Studio</li><li>UTM tracking</li><li>CTR analysis</li><li>Engagement metrics</li><li>Performance QA</li>
+        </ul>
+      </div>
+
+      <div class="skill-tile">
+        <span class="skill-icon">✍️</span>
+        <h4>Content &amp; SEO</h4>
+        <ul>
+          <li>SEO writing</li><li>Keyword mapping</li><li>UX copy</li><li>Web content</li><li>Blog production</li><li>Social content</li><li>Tone of voice</li>
         </ul>
       </div>
 
@@ -945,8 +1013,7 @@ layout: none
         <span class="skill-icon">🛠️</span>
         <h4>Tools</h4>
         <ul>
-          <li>HubSpot CMS</li><li>Ahrefs</li><li>SEMrush</li>
-          <li>Meta Analytics</li><li>YouTube Studio</li><li>Notion</li>
+          <li>HubSpot CMS</li><li>Ahrefs</li><li>SEMrush</li><li>Search Console</li><li>Meta Analytics</li><li>LinkedIn Analytics</li><li>YouTube Studio</li><li>Canva</li><li>Excel</li><li>Google Sheets</li><li>Notion</li><li>Confluence</li><li>Jira</li><li>AI marketing tools</li>
         </ul>
       </div>
 
@@ -954,8 +1021,7 @@ layout: none
         <span class="skill-icon">🤝</span>
         <h4>Collaboration</h4>
         <ul>
-          <li>Editorial QA</li><li>Workflow ops</li><li>Cross-team work</li>
-          <li>Creative briefs</li><li>Stakeholder comms</li>
+          <li>Stakeholder coordination</li><li>Cross-functional work</li><li>Workflow ops</li><li>Creative briefs</li><li>Campaign QA</li>
         </ul>
       </div>
 
@@ -968,8 +1034,13 @@ layout: none
   <h2 class="section-title">Achievements</h2>
   <div class="stats-grid">
     <div class="stat-card">
+      <div class="stat-num">75K</div>
+      <div class="stat-label">Website Traffic</div>
+      <div class="stat-sub">up from 300 in 3 months</div>
+    </div>
+    <div class="stat-card">
       <div class="stat-num">400+</div>
-      <div class="stat-label">Content Assets</div>
+      <div class="stat-label">Marketing Assets</div>
       <div class="stat-sub">shipped across roles</div>
     </div>
     <div class="stat-card">
@@ -978,14 +1049,29 @@ layout: none
       <div class="stat-sub">across web + social</div>
     </div>
     <div class="stat-card">
-      <div class="stat-num">100%</div>
-      <div class="stat-label">On-Time Publishing</div>
-      <div class="stat-sub">accuracy across all roles</div>
-    </div>
-    <div class="stat-card">
       <div class="stat-num">3.3%</div>
       <div class="stat-label">Lead-to-Conversion</div>
       <div class="stat-sub">from 3K generated leads</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">200+</div>
+      <div class="stat-label">Masterclass Attendees</div>
+      <div class="stat-sub">20+ customer conversions from zero baseline</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">60%</div>
+      <div class="stat-label">Engagement Uplift</div>
+      <div class="stat-sub">across a 100+ blog content pipeline</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">30+</div>
+      <div class="stat-label">Fintech Explainers</div>
+      <div class="stat-sub">and guides for customer audiences</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">100%</div>
+      <div class="stat-label">On-Time Delivery</div>
+      <div class="stat-sub">accuracy across all roles</div>
     </div>
   </div>
 </section>
@@ -1003,7 +1089,7 @@ layout: none
       <div class="leadership-right">
         <p>Led social strategy using content calendars, platform-native formats and analytics-driven iteration to grow engagement across student audiences.</p>
         <div class="tag-row">
-          <span class="tag">Content strategy</span><span class="tag">Platform-native content</span><span class="tag">Community engagement</span>
+          <span class="tag">Social strategy</span><span class="tag">Platform-native content</span><span class="tag">Community engagement</span>
         </div>
       </div>
     </div>
@@ -1041,7 +1127,7 @@ layout: none
 <div class="writing-section" id="writing">
   <div class="writing-inner">
     <h2 class="section-title">Read My Work</h2>
-    <p class="writing-intro">A selection of published articles spanning fintech, insurance, and digital culture, written for brand blogs and independent platforms.</p>
+    <p class="writing-intro">A selection of published writing spanning fintech, insurance, and digital culture, showing how I position products and translate complex ideas for audiences.</p>
     <div class="writing-grid">
 
       <a href="https://www.oneassure.in/insurance/health-insurance-guides/how-can-blockchain-reshape-future-of-insurance-scope-and-challenges" class="writing-card" target="_blank" rel="noopener">
@@ -1062,7 +1148,7 @@ layout: none
   </div>
 </div>
 
-<footer class="site-footer">© 2025 Kumari Savita</footer>
+<footer class="site-footer">© 2026 Kumari Savita</footer>
 
 </body>
 </html>
